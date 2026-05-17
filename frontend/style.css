@@ -38,6 +38,12 @@
         box-sizing: border-box;
     }
 
+    input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 5px rgba(79, 70, 229, 0.4);
+    }
+    
     button {
         width: 100%;
         padding: 10px;
@@ -51,12 +57,14 @@
 
     button:hover {
         background-color: #3730a3;
+        transform: scale(1.02);
     }
 
     #resultado {
         margin-top: 20px;
         color: #0e3ec2e0;
         padding: 10px;
+        transition: 0.3s;
     }
 
     
