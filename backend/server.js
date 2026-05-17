@@ -9,8 +9,8 @@ app.get("/saudacao", (req, res) => {
     const nome = req.query.nome;
 
     res.json({
-        mensagem: `Olá, ${nome}!`
-    });
+        mensagem: `Olá, ${nome}! Seja bem-vindo ao sistema.`
+});
 });
 
 app.listen(3000, () => {
